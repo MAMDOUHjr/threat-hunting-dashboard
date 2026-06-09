@@ -291,16 +291,6 @@ main.py
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Live log streaming (tail -f equivalent over SSH)
-- [ ] MITRE ATT&CK technique tagging per finding
-- [ ] Email/Slack alert integration
-- [ ] Dashboard charts (findings over time, severity breakdown)
-- [ ] OpenCTI integration for threat intel enrichment
-- [ ] Docker-based lab setup for easy demo deployment
-
----
 
 ## 📜 License
 
@@ -310,14 +300,15 @@ This project is for educational and lab use. Feel free to fork, extend, and buil
 
 ## 👥 Team
 
-This project was built collaboratively as part of our NTI cybersecurity training.
+This project was built collaboratively as part of our NTI cybersecurity training.  
 
 | Name | GitHub |
 |---|---|
 | Amr | [@MAMDOUHjr](https://github.com/MAMDOUHjr) |
-| Hamada | [@7amada8088](https://github.com/7amada8088) |
+| Gouda | [@7amada8088](https://github.com/7amada8088) |
 | Youssef | [@YoussefMansour74](https://github.com/YoussefMansour74) |
-
+| Saad | [@Sa3dHazem]( https://github.com/Sa3dHazem) |
+| Badr | []( https://github.com/#) |
 ---
 
 > 💡 **Tip:** Star ⭐ the repo if you find it useful, and feel free to open issues or PRs!
