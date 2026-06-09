@@ -2,7 +2,7 @@
 
 A production-quality Python desktop application for monitoring Linux virtual machines via SSH, collecting security logs, running automated threat-hunting checks, and exporting detailed findings reports.
 
-> Built as a hands-on cybersecurity lab project — developed during NTI cybersecurity training (CyberOps Associate · Endpoint Security · Cyber Threat Management).
+> Built as a hands-on cybersecurity lab project — developed during NTI cybersecurity training.
 
 ---
 
@@ -308,7 +308,7 @@ This project was built collaboratively as part of our NTI cybersecurity training
 | Gouda | [@7amada8088](https://github.com/7amada8088) |
 | Youssef | [@YoussefMansour74](https://github.com/YoussefMansour74) |
 | Saad | [@Sa3dHazem]( https://github.com/Sa3dHazem) |
-| Badr | []( https://github.com/#) |
+| Badr | [@MohamedBadr9]( https://github.com/MohamedBadr9) |
 ---
 
 > 💡 **Tip:** Star ⭐ the repo if you find it useful, and feel free to open issues or PRs!
