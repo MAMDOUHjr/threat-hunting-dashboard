@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛡️ Threat Hunting Dashboard
 
 A production-quality Python desktop application for monitoring Linux virtual machines via SSH, collecting security logs, running automated threat-hunting checks, and exporting detailed findings reports.
@@ -316,3 +317,7 @@ This project is for educational and lab use. Feel free to fork, extend, and buil
 ---
 
 > 💡 **Tip:** Star ⭐ the repo if you find it useful, and feel free to open issues or PRs!
+=======
+# Threat-hunting-dashboard
+Python desktop app for SSH-based threat hunting on Linux VMs
+>>>>>>> 9b80409f8ac18bd59a902593a697a2cf8cd16d49
