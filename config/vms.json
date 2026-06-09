@@ -1,0 +1,11 @@
+[
+  {
+    "name": "kali-lab",
+    "host": "YOUR_VM_IP_HERE",
+    "port": 22,
+    "username": "YOUR_USERNAME",
+    "key_path": "~/.ssh/id_rsa",
+    "key_passphrase": null
+  }
+]
+

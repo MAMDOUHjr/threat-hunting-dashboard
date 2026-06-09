@@ -1,0 +1,139 @@
+2026-06-03 03:31:10  INFO      __main__ — ╔══════════════════════════════════════╗
+2026-06-03 03:31:10  INFO      __main__ — ║   Threat Hunting Dashboard Starting  ║
+2026-06-03 03:31:10  INFO      __main__ — ╚══════════════════════════════════════╝
+2026-06-03 03:31:11  INFO      hunting.engine — Loaded 1 VM configurations from D:\Threat Project\threat_hunting_dashboard_redesignedxSSHKEY\config\vms.json
+2026-06-03 03:31:12  INFO      gui.app — Loaded 1 VMs
+2026-06-03 03:31:18  WARNING   transport.ssh — Connection test failed for 192.168.100.45: SSH key file not found: C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+Check the 'key_path' value in config/vms.json.
+2026-06-03 03:31:18  INFO      gui.vm_card — Connection test Offline for kali-lab: SSH key file not found: C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+Check the 'key_path' value in config/vms.json.
+2026-06-03 03:43:59  INFO      __main__ — ╔══════════════════════════════════════╗
+2026-06-03 03:43:59  INFO      __main__ — ║   Threat Hunting Dashboard Starting  ║
+2026-06-03 03:43:59  INFO      __main__ — ╚══════════════════════════════════════╝
+2026-06-03 03:44:00  INFO      hunting.engine — Loaded 1 VM configurations from D:\Threat Project\threat_hunting_dashboard_redesignedxSSHKEY\config\vms.json
+2026-06-03 03:44:00  INFO      gui.app — Loaded 1 VMs
+2026-06-03 03:44:02  WARNING   transport.ssh — Private key C:\Users\Amr Mamdouhjr\.ssh\id_rsa has permissions 666 — should be 600 or 400. SSH may refuse to use it. Fix with: chmod 600 C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+2026-06-03 03:44:02  INFO      paramiko.transport — Connected (version 2.0, client OpenSSH_10.0p2)
+2026-06-03 03:44:02  INFO      paramiko.transport — Authentication (publickey) successful!
+2026-06-03 03:44:02  INFO      transport.ssh — SSH key-auth connection established to kali@192.168.100.45:22 (key: id_rsa)
+2026-06-03 03:44:02  INFO      gui.vm_card — Connection test Online for kali-lab: kali
+ 20:44:02 up  6:09,  4 users,  load average: 0.01, 0.02, 0.00
+2026-06-03 03:44:03  INFO      hunting.engine — Starting hunt on kali-lab (192.168.100.45:22)
+2026-06-03 03:44:03  WARNING   transport.ssh — Private key C:\Users\Amr Mamdouhjr\.ssh\id_rsa has permissions 666 — should be 600 or 400. SSH may refuse to use it. Fix with: chmod 600 C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+2026-06-03 03:44:03  INFO      paramiko.transport — Connected (version 2.0, client OpenSSH_10.0p2)
+2026-06-03 03:44:03  INFO      paramiko.transport — Authentication (publickey) successful!
+2026-06-03 03:44:03  INFO      transport.ssh — SSH key-auth connection established to kali@192.168.100.45:22 (key: id_rsa)
+2026-06-03 03:44:04  INFO      hunting.checks — CHECK1: Brute force — 185.220.101.30 (8 failures)
+2026-06-03 03:44:04  WARNING   hunting.checks — CHECK2: Login after failures — 185.220.101.42 (4 fails)
+2026-06-03 03:44:04  WARNING   hunting.checks — CHECK2: Login after failures — 185.220.101.30 (8 fails)
+2026-06-03 03:44:04  INFO      hunting.checks — CHECK4: 4 user-creation lines found
+2026-06-03 03:44:04  INFO      hunting.checks — CHECK6: 36 package events found
+2026-06-03 03:44:04  INFO      hunting.checks — CHECK7: 16 audit privilege-escalation lines
+2026-06-03 03:44:04  INFO      hunting.checks — CHECK8: 3 suspicious bash history lines
+2026-06-03 03:44:04  INFO      hunting.engine — Hunt completed on kali-lab — 7 finding(s)
+2026-06-03 03:44:04  INFO      gui.app — Hunt finished for kali-lab, queued report
+2026-06-03 03:44:04  INFO      gui.app — Report displayed — kali-lab: 7 finding(s)
+2026-06-03 03:44:35  INFO      __main__ — Application exited cleanly.
+2026-06-03 09:42:45  INFO      __main__ — ╔══════════════════════════════════════╗
+2026-06-03 09:42:45  INFO      __main__ — ║   Threat Hunting Dashboard Starting  ║
+2026-06-03 09:42:45  INFO      __main__ — ╚══════════════════════════════════════╝
+2026-06-03 09:42:46  INFO      hunting.engine — Loaded 1 VM configurations from D:\Threat Project\threat_hunting_dashboard_redesignedxSSHKEY\config\vms.json
+2026-06-03 09:42:46  INFO      gui.app — Loaded 1 VMs
+2026-06-03 09:42:50  WARNING   transport.ssh — Private key C:\Users\Amr Mamdouhjr\.ssh\id_rsa has permissions 666 — should be 600 or 400. SSH may refuse to use it. Fix with: chmod 600 C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+2026-06-03 09:43:11  WARNING   transport.ssh — Connection test failed for 192.168.100.45: Network error connecting to 192.168.100.45:22: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Check that the host is reachable and port 22 is open.
+2026-06-03 09:43:11  INFO      gui.vm_card — Connection test Offline for kali-lab: Network error connecting to 192.168.100.45:22: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Check that the host is reachable and port 22 is open.
+2026-06-03 09:48:34  INFO      __main__ — ╔══════════════════════════════════════╗
+2026-06-03 09:48:34  INFO      __main__ — ║   Threat Hunting Dashboard Starting  ║
+2026-06-03 09:48:34  INFO      __main__ — ╚══════════════════════════════════════╝
+2026-06-03 09:48:35  INFO      hunting.engine — Loaded 1 VM configurations from D:\Threat Project\threat_hunting_dashboard_redesignedxSSHKEY\config\vms.json
+2026-06-03 09:48:35  INFO      gui.app — Loaded 1 VMs
+2026-06-03 09:48:36  WARNING   transport.ssh — Private key C:\Users\Amr Mamdouhjr\.ssh\id_rsa has permissions 666 — should be 600 or 400. SSH may refuse to use it. Fix with: chmod 600 C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+2026-06-03 09:48:57  WARNING   transport.ssh — Connection test failed for fe80::8da2:2134:7cbd:5fdc: Network error connecting to fe80::8da2:2134:7cbd:5fdc:22: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Check that the host is reachable and port 22 is open.
+2026-06-03 09:48:57  INFO      gui.vm_card — Connection test Offline for kali-lab: Network error connecting to fe80::8da2:2134:7cbd:5fdc:22: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Check that the host is reachable and port 22 is open.
+2026-06-03 09:52:28  INFO      __main__ — ╔══════════════════════════════════════╗
+2026-06-03 09:52:28  INFO      __main__ — ║   Threat Hunting Dashboard Starting  ║
+2026-06-03 09:52:28  INFO      __main__ — ╚══════════════════════════════════════╝
+2026-06-03 09:52:29  INFO      hunting.engine — Loaded 1 VM configurations from D:\Threat Project\threat_hunting_dashboard_redesignedxSSHKEY\config\vms.json
+2026-06-03 09:52:29  INFO      gui.app — Loaded 1 VMs
+2026-06-03 09:52:31  WARNING   transport.ssh — Private key C:\Users\Amr Mamdouhjr\.ssh\id_rsa has permissions 666 — should be 600 or 400. SSH may refuse to use it. Fix with: chmod 600 C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+2026-06-03 09:52:31  INFO      paramiko.transport — Connected (version 2.0, client OpenSSH_10.0p2)
+2026-06-03 09:52:33  INFO      paramiko.transport — Authentication (publickey) successful!
+2026-06-03 09:52:33  INFO      transport.ssh — SSH key-auth connection established to kali@172.20.10.6:22 (key: id_rsa)
+2026-06-03 09:52:33  INFO      gui.vm_card — Connection test Online for kali-lab: kali
+ 02:52:31 up 2 min,  2 users,  load average: 0.99, 0.69, 0.28
+2026-06-03 09:52:34  INFO      hunting.engine — Starting hunt on kali-lab (172.20.10.6:22)
+2026-06-03 09:52:34  WARNING   transport.ssh — Private key C:\Users\Amr Mamdouhjr\.ssh\id_rsa has permissions 666 — should be 600 or 400. SSH may refuse to use it. Fix with: chmod 600 C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+2026-06-03 09:52:34  INFO      paramiko.transport — Connected (version 2.0, client OpenSSH_10.0p2)
+2026-06-03 09:52:34  INFO      paramiko.transport — Authentication (publickey) successful!
+2026-06-03 09:52:34  INFO      transport.ssh — SSH key-auth connection established to kali@172.20.10.6:22 (key: id_rsa)
+2026-06-03 09:52:36  INFO      hunting.checks — CHECK1: Brute force — 185.220.101.30 (8 failures)
+2026-06-03 09:52:36  WARNING   hunting.checks — CHECK2: Login after failures — 185.220.101.42 (4 fails)
+2026-06-03 09:52:36  WARNING   hunting.checks — CHECK2: Login after failures — 185.220.101.30 (8 fails)
+2026-06-03 09:52:36  INFO      hunting.checks — CHECK4: 4 user-creation lines found
+2026-06-03 09:52:36  INFO      hunting.checks — CHECK6: 12 package events found
+2026-06-03 09:52:36  INFO      hunting.checks — CHECK7: 19 audit privilege-escalation lines
+2026-06-03 09:52:36  INFO      hunting.checks — CHECK8: 3 suspicious bash history lines
+2026-06-03 09:52:36  INFO      hunting.engine — Hunt completed on kali-lab — 7 finding(s)
+2026-06-03 09:52:36  INFO      gui.app — Hunt finished for kali-lab, queued report
+2026-06-03 09:52:36  INFO      gui.app — Report displayed — kali-lab: 7 finding(s)
+2026-06-03 10:26:27  INFO      __main__ — ╔══════════════════════════════════════╗
+2026-06-03 10:26:27  INFO      __main__ — ║   Threat Hunting Dashboard Starting  ║
+2026-06-03 10:26:27  INFO      __main__ — ╚══════════════════════════════════════╝
+2026-06-03 10:26:28  INFO      hunting.engine — Loaded 2 VM configurations from D:\Threat Project\threat_hunting_dashboard_redesignedxSSHKEY\config\vms.json
+2026-06-03 10:26:28  INFO      gui.app — Loaded 2 VMs
+2026-06-03 10:26:29  WARNING   transport.ssh — Private key C:\Users\Amr Mamdouhjr\.ssh\id_rsa has permissions 666 — should be 600 or 400. SSH may refuse to use it. Fix with: chmod 600 C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+2026-06-03 10:26:30  INFO      paramiko.transport — Connected (version 2.0, client OpenSSH_10.2p1)
+2026-06-03 10:26:30  INFO      paramiko.transport — Authentication (publickey) successful!
+2026-06-03 10:26:30  INFO      transport.ssh — SSH key-auth connection established to mohamedbadr@172.20.10.4:22 (key: id_rsa)
+2026-06-03 10:26:31  INFO      gui.vm_card — Connection test Online for kali-BADR: kali
+ 03:26:31 up 21 min,  1 user,  load average: 0.38, 0.52, 0.42
+2026-06-03 10:26:33  INFO      hunting.engine — Starting hunt on kali-BADR (172.20.10.4:22)
+2026-06-03 10:26:33  WARNING   transport.ssh — Private key C:\Users\Amr Mamdouhjr\.ssh\id_rsa has permissions 666 — should be 600 or 400. SSH may refuse to use it. Fix with: chmod 600 C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+2026-06-03 10:26:33  INFO      paramiko.transport — Connected (version 2.0, client OpenSSH_10.2p1)
+2026-06-03 10:26:33  INFO      paramiko.transport — Authentication (publickey) successful!
+2026-06-03 10:26:33  INFO      transport.ssh — SSH key-auth connection established to mohamedbadr@172.20.10.4:22 (key: id_rsa)
+2026-06-03 10:26:35  INFO      hunting.engine — Hunt completed on kali-BADR — 0 finding(s)
+2026-06-03 10:26:35  INFO      gui.app — Hunt finished for kali-BADR, queued report
+2026-06-03 10:26:36  INFO      gui.app — Report displayed — kali-BADR: 0 finding(s)
+2026-06-03 10:28:45  WARNING   transport.ssh — Private key C:\Users\Amr Mamdouhjr\.ssh\id_rsa has permissions 666 — should be 600 or 400. SSH may refuse to use it. Fix with: chmod 600 C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+2026-06-03 10:28:45  INFO      paramiko.transport — Connected (version 2.0, client OpenSSH_10.2p1)
+2026-06-03 10:28:45  INFO      paramiko.transport — Authentication (publickey) successful!
+2026-06-03 10:28:45  INFO      transport.ssh — SSH key-auth connection established to mohamedbadr@172.20.10.4:22 (key: id_rsa)
+2026-06-03 10:28:46  INFO      gui.vm_card — Connection test Online for kali-BADR: kali
+ 03:28:46 up 23 min,  1 user,  load average: 0.42, 0.54, 0.45
+2026-06-03 10:28:49  INFO      hunting.engine — Starting hunt on kali-BADR (172.20.10.4:22)
+2026-06-03 10:28:49  WARNING   transport.ssh — Private key C:\Users\Amr Mamdouhjr\.ssh\id_rsa has permissions 666 — should be 600 or 400. SSH may refuse to use it. Fix with: chmod 600 C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+2026-06-03 10:28:49  INFO      paramiko.transport — Connected (version 2.0, client OpenSSH_10.2p1)
+2026-06-03 10:28:50  INFO      paramiko.transport — Authentication (publickey) successful!
+2026-06-03 10:28:50  INFO      transport.ssh — SSH key-auth connection established to mohamedbadr@172.20.10.4:22 (key: id_rsa)
+2026-06-03 10:28:51  INFO      hunting.checks — CHECK4: 1 user-creation lines found
+2026-06-03 10:28:51  INFO      hunting.checks — CHECK5: 2 suspicious cron entries found
+2026-06-03 10:28:51  INFO      hunting.checks — CHECK6: 3 package events found
+2026-06-03 10:28:51  INFO      hunting.engine — Hunt completed on kali-BADR — 3 finding(s)
+2026-06-03 10:28:51  INFO      gui.app — Hunt finished for kali-BADR, queued report
+2026-06-03 10:28:52  INFO      gui.app — Report displayed — kali-BADR: 3 finding(s)
+2026-06-03 10:29:10  WARNING   transport.ssh — Private key C:\Users\Amr Mamdouhjr\.ssh\id_rsa has permissions 666 — should be 600 or 400. SSH may refuse to use it. Fix with: chmod 600 C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+2026-06-03 10:29:10  INFO      paramiko.transport — Connected (version 2.0, client OpenSSH_10.0p2)
+2026-06-03 10:29:10  INFO      paramiko.transport — Authentication (publickey) successful!
+2026-06-03 10:29:10  INFO      transport.ssh — SSH key-auth connection established to kali@172.20.10.6:22 (key: id_rsa)
+2026-06-03 10:29:10  INFO      gui.vm_card — Connection test Online for kali-lab: kali
+ 03:29:10 up 39 min,  2 users,  load average: 0.03, 0.08, 0.08
+2026-06-03 10:29:53  INFO      hunting.engine — Starting hunt on kali-lab (172.20.10.6:22)
+2026-06-03 10:29:53  WARNING   transport.ssh — Private key C:\Users\Amr Mamdouhjr\.ssh\id_rsa has permissions 666 — should be 600 or 400. SSH may refuse to use it. Fix with: chmod 600 C:\Users\Amr Mamdouhjr\.ssh\id_rsa
+2026-06-03 10:29:53  INFO      paramiko.transport — Connected (version 2.0, client OpenSSH_10.0p2)
+2026-06-03 10:29:53  INFO      paramiko.transport — Authentication (publickey) successful!
+2026-06-03 10:29:53  INFO      transport.ssh — SSH key-auth connection established to kali@172.20.10.6:22 (key: id_rsa)
+2026-06-03 10:29:54  INFO      hunting.checks — CHECK1: Brute force — 185.220.101.30 (8 failures)
+2026-06-03 10:29:54  WARNING   hunting.checks — CHECK2: Login after failures — 185.220.101.42 (4 fails)
+2026-06-03 10:29:54  WARNING   hunting.checks — CHECK2: Login after failures — 185.220.101.30 (8 fails)
+2026-06-03 10:29:54  INFO      hunting.checks — CHECK4: 4 user-creation lines found
+2026-06-03 10:29:54  INFO      hunting.checks — CHECK6: 12 package events found
+2026-06-03 10:29:54  INFO      hunting.checks — CHECK7: 19 audit privilege-escalation lines
+2026-06-03 10:29:54  INFO      hunting.checks — CHECK8: 3 suspicious bash history lines
+2026-06-03 10:29:54  INFO      hunting.engine — Hunt completed on kali-lab — 7 finding(s)
+2026-06-03 10:29:54  INFO      gui.app — Hunt finished for kali-lab, queued report
+2026-06-03 10:29:54  INFO      gui.app — Report displayed — kali-lab: 7 finding(s)
